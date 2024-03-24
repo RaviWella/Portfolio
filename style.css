@@ -174,8 +174,22 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+  
 }
 
+.grad1 {
+  height: 200px;
+  background-image: linear-gradient(to right, #FFD966, #F1F5A8)
+}
+/* .grad1 {
+  height: 200px;
+  background-image: linear-gradient(to right, #fdfdfd, #fffffd)
+} */
+
+.section__pic-container img{
+  border-radius: 30%;
+  border: px solid;
+}
 .section__text {
   align-self: center;
   text-align: center;
@@ -319,6 +333,11 @@ section {
 #experience {
   position: relative;
 }
+
+#experience2 {
+  position:static;
+}
+
 
 .experience-sub-title {
   color: rgb(85, 85, 85);
